@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    background-color: #e8f1f2;
+    font-family: "Inter", sans-serif;
+    /*display: flex;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILIZAÇAO DO TITULO */
+
+.header {
+    display: flex;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    padding-top: 6px;
+}
+
+.data {
+    color: #a4a4a4;
+}
+
+.input-box input {
+    width: 260px;
+    height: 27px;
+    border-radius: 3px;
+    border: solid #a4a4a4 1px;
+    padding-left: 6px;
+    margin-bottom: 8px;
+}
+
+.input-b {
+    margin-top: 7px;
+}
+
+.body {
+    width: 350px;
+    height: 600px;
+    background-color: #13293d;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.form {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input-area {
+    margin-top: 5px;
+}
+
+.input-area label {
+    color: #fff;
+}
+.input-area textarea {
+    margin-top: 3px;
+    width: 260px;
+    height: 100px;
+    padding-left: 6px;
+    border: solid #a4a4a4 1px;
+    border-color: #a4a4a4;
+    outline: none;
+    padding-top: 6px;
+}
+
+input:focus {
+    border-color: #a4a4a4;
+    outline: none;
+}
+
+.input-btn {
+    margin-top: 10px;
+}
+
+.input-btn button {
+    width: 260px;
+    height: 27px;
+    border-radius: 3px;
+    border: none;
+    background-color: #213d55;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-btn button:hover {
+    background-color: #213d55;
+}
+
+/* ESTILIZAÇAO DA TABELA */
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 1000px;
+    padding: 12px;
+}
+
+.titulo-cad h2 {
+    color: #1a3853;
+    margin-bottom: 22px;
+    font-weight: 500;
+}
+
+table,
+th,
+td {
+    border: 1px solid #444;
+    border-collapse: collapse;
+    padding: 5px 2px 5px 2px;
+}
+
+table {
+    width: 840px;
+}
+
+.table-descri {
+    width: 250px;
+}
+th {
+    color: #fff;
+    background-color: #1a3853;
+    font-weight: 500;
+}
+
+tr {
+    cursor: pointer;
+}
+
+td a {
+    text-decoration: none;
+    color: #045fb4;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+td a:hover {
+    color: #0174df;
+}
+
+.item td {
+    color: #444;
+}
+
+/* ESTILIZAÇAO DO LARAVEL*/
+
+.error {
+    color: #da3232;
+}
+
+/*nav {
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+nav .w-5 {
+    border: 1px solid red;
+    width: 15px;
+}
+
+nav .flex {
+    display: none;
+}
+
+nav .hidden {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .relative {
+}*/
+
+#paginacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+#paginacao li {
+    display: inline-block;
+}
+
+#paginacao ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#paginacao a {
+    text-decoration: none;
+    color: #045fb4;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#paginacao a:hover {
+    color: #0174df;
+}
+
+#paginacao .disabled span {
+    border-color: #ccc;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+#paginacao .active a {
+    color: white;
+    font-weight: bold;
+    border-color: #007bff;
+}
+
+#paginacao .active a:hover {
+    background-color: #0056b3;
+}
+
+/*SEGUNDA PAGINAÇAO*/
+
+#paginacao2 .pages2 {
+    display: flex;
+}
+
+#paginacao2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+#paginacao2 li {
+    display: inline-block;
+}
+
+#paginacao2 ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#paginacao2 a {
+    text-decoration: none;
+    color: #13293d;
+    font-weight: 400;
+    cursor: pointer;
+}
