@@ -260,3 +260,19 @@ nav .relative {
     font-weight: 400;
     cursor: pointer;
 }
+
+#sair {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#sair a {
+    text-decoration: none;
+    color: #1b98e0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#sair a:hover {
+    color: #0174df;
+}
